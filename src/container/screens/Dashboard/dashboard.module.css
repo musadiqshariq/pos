@@ -1,0 +1,250 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    height: 100vh;
+    background-color:#d8e8e5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.subMain{
+    padding: 12px;
+    width: 85%;
+    height: 85%;
+    background-color:  #f3f3ff;
+    border-radius: 20px;
+    border: 5px solid #fff ;
+    box-shadow: rgba(0,115,85,0.5) 0px 20px 30px -10px;
+    display: flex;
+    
+    /* flex-wrap: wrap; */
+}
+.subMain2{
+    width: 85%;
+    margin-left: 15px;
+    padding: 0px;
+    height: 100%;
+    display: inline-block;
+    overflow-x: scroll;
+}
+.subMain2::-webkit-scrollbar{
+    display: none;
+}
+
+.topSelling{
+    width: 100%;
+    height: 220px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+
+}
+.topSellingHeader{
+    padding: 0px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+.topSellingHeader>p{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.dropdown{
+    margin-bottom: 2px;
+    width: 150px;
+    padding-left: 10px;
+    color: #aeaeae;
+    outline: none;
+    border: 2px solid #aeaeae;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cards{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.card{
+    /* width: 150px;
+    height: 100px; */
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #f3f3ff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card > img{
+    border-radius: 5px;
+}
+.card  p{
+    margin: 0px;
+}
+.card > div{
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.cards::-webkit-scrollbar{
+    display: none;
+}
+.itemName{
+    font-size: 16px;
+    font-weight: bold;
+}
+.qty{
+    font-size: 13px;
+    color: #aeaeae;
+}
+.graphDiv{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.graphCard{
+    cursor: pointer;
+    height: 270px;
+    width: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid #ffffff;
+}
+.graphCard:hover{
+    border: 2px solid #007355 ;
+    transition: all 0.2s;
+}
+.incomeHeader{
+    padding: 0px 20px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+.incomeHeader > p{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.incomeDropdown{
+    margin-bottom: 2px;
+    width: 110px;
+    padding-left: 10px;
+    color: #aeaeae;
+    outline: none;
+    border: 2px solid #aeaeae;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.amount{
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 10px;
+    /* margin-top: -10px; */
+}
+.amount > span{
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 1350px) {
+    
+    .graphCard{
+        width: 400px;
+    }
+    
+  }
+
+  @media screen and (max-width: 1180px) {
+    
+    .graphCard{
+        width: 350px;
+    }
+    
+  }
+
+  @media screen and (max-width: 1030px) {
+    
+    .graphCard{
+        width: 300px;
+    }
+    
+  }
+  @media screen and (max-width: 872px) {
+    
+    .graphCard{
+        margin-top: 20px;
+    }
+    
+  }
+  @media screen and (max-width: 580px) {
+    
+    .dropdown{
+        width: 110px;
+    }
+    
+  }
+  @media screen and (max-width: 530px) {
+    
+    .topSellingHeader>p{
+        font-size: 18px;
+    }
+    
+  }
+ /* @media screen and (max-width: 1350px) {
+    
+    .subMain2{
+        width: 950px;
+    }
+    
+  }
+ @media screen and (max-width: 1300px) {
+    
+    .subMain2{
+        width: 900px;
+    }
+    
+  }
+  @media screen and (max-width: 1250px) {
+    
+    .subMain2{
+        width: 850px;
+    }
+    
+  }
+  @media screen and (max-width: 1200px) {
+    
+    .subMain2{
+        width: 800px;
+    }
+    
+  }
+  @media screen and (max-width: 1150px) {
+    
+    .subMain2{
+        width: 750px;
+    }
+    
+  }
+  @media screen and (max-width: 1100px) {
+    
+    .subMain2{
+        width: 700px;
+    }
+    
+  }
+  @media screen and (max-width: 1050px) {
+    
+    .subMain2{
+        width: 650px;
+    }
+    
+  } */

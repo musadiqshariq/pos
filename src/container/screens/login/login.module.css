@@ -1,0 +1,75 @@
+.main{
+    background-color: #d8e8e5 ;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.main2{
+    background-color: #d8e8e5 ;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.form{
+    width: 50%;
+    margin: 0px auto;
+    border: 1px solid #007355;
+    padding: 5px;
+}
+.login{
+    margin-top: 20px;
+    color: #007355;
+}
+.inp{
+    background-color: #fff;
+}
+.inp:focus{
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+.button{
+    background-color: #007355;
+    color: #fff;
+    border: none;
+    width: 60%;
+}
+.button:active{
+    text-decoration: none;
+}
+.button2:active{
+    text-decoration: none;
+}
+.button2{
+    background-color: #007355;
+    color: #fff;
+    border: none;
+    width: 40%;
+}
+.button:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #007355;
+}
+.button2:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #007355;
+}
+.btn_div{
+    width: 100%;
+    text-align: center;
+}
+.btn_div2{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.xyz{
+    color: #007355;
+}

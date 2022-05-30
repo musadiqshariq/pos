@@ -1,0 +1,49 @@
+.addCard>p{
+    color: #007355;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.addCard{
+    width: 220px;
+    height: 175px;
+    padding: 10px;
+    background-color: #f3f3ff ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.add{
+    /* margin-top: 10px; */
+    width: 70px;
+    height: 70px;
+    font-size: 50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007355 ;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-top: 15.5px;
+    margin-left: 1px;
+    border-radius: 50%;
+    
+}
+.addDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 2px dashed #007355;
+}
+.addCard:hover{
+    transform: scale(1.08);
+    opacity: 1;
+    transition: all 0.2s;
+}
